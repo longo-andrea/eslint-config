@@ -4,7 +4,6 @@
   "description": "My custom ESLint config",
   "author": "Andrea Longo",
   "license": "MIT",
-  "private": true,
   "devDependencies": {
     "eslint": "^7.25.0",
     "lerna": "^4.0.0"
