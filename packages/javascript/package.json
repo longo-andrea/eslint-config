@@ -1,0 +1,19 @@
+{
+    "name": "@longo-andrea/eslint-config-javascript",
+    "version": "0.0.1",
+    "description": "My custom ESLint JavaScript config",
+    "author": "Andrea Longo",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "eslint": "^7.25.0"
+    },
+    "dependencies": {
+        "eslint-config-standard": "^16.0.2",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-promise": "^5.1.0",
+        "eslint-plugin-unicorn": "^31.0.0"
+    }
+}
