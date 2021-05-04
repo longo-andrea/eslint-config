@@ -7,5 +7,8 @@
   "devDependencies": {
     "eslint": "^7.25.0",
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "release": "lerna publish --conventional-commits"
   }
 }
