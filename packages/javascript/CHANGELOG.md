@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @longo-andrea/eslint-config-javascript
 
+## 0.0.1 - (2021-05-02)
 
-
-
-
-# 0.0.1 - 04/05/2021
-
-- Init JavaScript config
+**Note:** Init project
