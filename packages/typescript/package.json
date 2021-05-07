@@ -1,6 +1,6 @@
 {
     "name": "@longo-andrea/eslint-config-typescript",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "My custom ESLint Typescript config",
     "author": "Andrea Longo",
     "license": "MIT",

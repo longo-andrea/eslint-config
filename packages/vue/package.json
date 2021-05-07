@@ -1,6 +1,6 @@
 {
     "name": "@longo-andrea/eslint-config-vue",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "My custom ESLint Vue config",
     "author": "Andrea Longo",
     "license": "MIT",
@@ -11,7 +11,7 @@
         "eslint": "^7.25.0"
     },
     "dependencies": {
-        "@longo-andrea/eslint-config-typescript": "^0.1.0",
+        "@longo-andrea/eslint-config-typescript": "^0.1.2",
         "eslint-plugin-vue": "^7.9.0"
     }
 }
