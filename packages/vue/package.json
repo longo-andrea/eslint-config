@@ -1,0 +1,17 @@
+{
+    "name": "@longo-andrea/eslint-config-vue",
+    "version": "0.1.0",
+    "description": "My custom ESLint Vue config",
+    "author": "Andrea Longo",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "eslint": "^7.25.0"
+    },
+    "dependencies": {
+        "@longo-andrea/eslint-config-typescript": "^0.1.0",
+        "eslint-plugin-vue": "^7.9.0"
+    }
+}
