@@ -1,6 +1,6 @@
 {
     "name": "@longo-andrea/eslint-config-javascript",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "My custom ESLint JavaScript config",
     "author": "Andrea Longo",
     "license": "MIT",

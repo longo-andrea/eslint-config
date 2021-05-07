@@ -1,6 +1,6 @@
 {
     "name": "@longo-andrea/eslint-config-typescript",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "My custom ESLint Typescript config",
     "author": "Andrea Longo",
     "license": "MIT",
@@ -11,7 +11,7 @@
         "eslint": "^7.25.0"
     },
     "dependencies": {
-        "@longo-andrea/eslint-config-javascript": "^0.0.3",
+        "@longo-andrea/eslint-config-javascript": "^0.1.0",
         "@typescript-eslint/eslint-plugin": "^4.22.1"
     }
 }
