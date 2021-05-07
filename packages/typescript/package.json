@@ -12,6 +12,7 @@
     },
     "dependencies": {
         "@longo-andrea/eslint-config-javascript": "^0.1.0",
-        "@typescript-eslint/eslint-plugin": "^4.22.1"
+        "@typescript-eslint/eslint-plugin": "^4.22.1",
+        "@typescript-eslint/parser": "^4.22.1"
     }
 }
