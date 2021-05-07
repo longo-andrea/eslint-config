@@ -1,6 +1,6 @@
 {
     "name": "@longo-andrea/eslint-config-vue",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "My custom ESLint Vue config",
     "author": "Andrea Longo",
     "license": "MIT",
