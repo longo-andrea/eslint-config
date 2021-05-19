@@ -47,9 +47,15 @@ module.exports = {
         'comma-spacing': ['error', { before: false, after: true }],
         'comma-style': ['error', 'last'],
         'indent': ["error", 4, { "SwitchCase": 1 }],
-        'keyword-spacing': ["error", { "before": false, "after": true }],
+        'keyword-spacing': ['error',
+          {
+            overrides: {
+              import: { before: true, after: true }
+            }
+          }
+        ],
         'max-len': ["warn", { "code": 120 }],
-        'max-lines-per-function': ["warn", 20],
+        'max-lines-per-function': ['warn', 30],
         'max-params': ["warn", 3],
         'no-plusplus': "error",
         'no-trailing-spaces': "warn",
@@ -95,6 +101,11 @@ module.exports = {
         'promise/prefer-await-to-callbacks': 'error',
         
         // unicorn => https://github.com/sindresorhus/eslint-plugin-unicorn
-        'unicorn/no-null': 'off'
+        'unicorn/no-null': 'off',
+        'unicorn/filename-case': ['error',
+          {
+            'case': 'camelCase'
+          }
+        ]
     }
   }
