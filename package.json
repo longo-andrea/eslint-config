@@ -4,6 +4,7 @@
 	"description": "My custom ES Lint config",
 	"author": "Andrea Longo<https://github.com/longo-andrea>",
 	"scripts": {
+		"generate:changelog": "node ./scripts/generate-changelog.mjs",
 		"release": "node ./scripts/prepare-release.mjs",
 		"format": "prettier --config ./packages/prettier/prettier.config.js --write ."
 	},
