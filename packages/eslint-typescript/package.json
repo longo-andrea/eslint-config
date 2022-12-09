@@ -1,0 +1,14 @@
+{
+	"name": "@longo-andrea/eslint-typescript",
+	"version": "1.0.0",
+	"description": "Basic ES Lint Typescript configuration",
+	"main": "index.js",
+	"author": "longo-andrea",
+	"license": "MIT",
+	"devDependencies": {
+		"@longo-andrea/eslint-base": "workspace: *",
+		"@typescript-eslint/eslint-plugin": "^5.46.0",
+		"@typescript-eslint/parser": "^5.46.0",
+		"eslint": "^8.29.0"
+	}
+}
