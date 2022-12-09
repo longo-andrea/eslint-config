@@ -1,0 +1,20 @@
+{
+	"name": "@longo-andrea/eslint-base",
+	"version": "1.0.0",
+	"description": "Basic eslint configuration",
+	"main": "index.js",
+	"author": "longo-andrea",
+	"license": "MIT",
+	"dependencies": {
+		"prettier": "^2.8.1"
+	},
+	"devDependencies": {
+		"eslint": "^8.29.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-html": "^7.1.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.6.0",
+		"eslint-plugin-no-only-tests": "^3.1.0",
+		"eslint-plugin-prettier": "^4.2.1"
+	}
+}
