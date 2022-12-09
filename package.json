@@ -1,9 +1,10 @@
 {
 	"name": "@longo-andrea/eslint-monorepo",
-	"version": "1.0.0",
+	"version": "a",
 	"description": "My custom ES Lint config",
 	"author": "Andrea Longo<https://github.com/longo-andrea>",
 	"scripts": {
+		"release": "node ./scripts/prepare-release.mjs",
 		"format": "prettier --config ./packages/prettier/prettier.config.js --write ."
 	},
 	"license": "MIT",
@@ -14,6 +15,8 @@
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
 		"@commitlint/config-conventional": "^17.3.0",
+		"fs-extra": "^11.1.0",
+		"glob": "^8.0.3",
 		"prettier": "^2.8.1",
 		"simple-git-hooks": "^2.8.1"
 	}
