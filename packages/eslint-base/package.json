@@ -1,7 +1,7 @@
 {
 	"name": "@longo-andrea/eslint-base",
 	"version": "1.0.0",
-	"description": "Basic eslint configuration",
+	"description": "Basic ES Lint configuration",
 	"main": "index.js",
 	"author": "longo-andrea",
 	"license": "MIT",
