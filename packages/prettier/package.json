@@ -1,0 +1,11 @@
+{
+	"name": "@longo-andrea/prettier",
+	"version": "1.0.0",
+	"description": "Prettier configuration",
+	"main": "index.json",
+	"author": "longo-andrea",
+	"license": "MIT",
+	"dependencies": {
+		"prettier": "^2.8.1"
+	}
+}
