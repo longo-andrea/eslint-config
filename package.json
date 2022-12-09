@@ -1,0 +1,16 @@
+{
+  "name": "@longo-andrea/eslint-monorepo",
+  "version": "1.0.0",
+  "description": "My custom ES Lint config",
+  "author": "Andrea Longo<https://github.com/longo-andrea>",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "simple-git-hooks": "^2.8.1"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx --no -- commitlint --edit $1"
+  }
+}
