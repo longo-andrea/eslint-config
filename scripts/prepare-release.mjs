@@ -1,6 +1,6 @@
 import glob from 'glob';
 import fs from 'fs-extra';
-import execSync from 'child_process';
+import { execSync } from 'child_process';
 
 const bumpVersion = async version => {
 	// Update version on root package.json

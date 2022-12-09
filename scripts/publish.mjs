@@ -1,5 +1,5 @@
 import fs from 'fs-extra';
-import execSync from 'child_process';
+import { execSync } from 'child_process';
 
 const publishPackges = async () => {
 	const allPackages = await fs.readdir('./packages');
