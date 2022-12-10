@@ -1,3 +1,13 @@
+# v0.4.10 - 2022-12-10
+
+## Build system
+
+-   <@longo-andrea> (2022-12-10) - fix publis and release scripts
+
+## Dependencies
+
+-   <@longo-andrea> (2022-12-10) - release version
+
 # v0.4.9 - 2022-12-10
 
 ## Dependencies
