@@ -28,6 +28,6 @@ jobs:
             - run: pnpm install
 
             - name: Publish
-              run: pnpm publish
+              run: pnpm publish:ci
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
