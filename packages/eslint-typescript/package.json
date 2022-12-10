@@ -3,6 +3,9 @@
 	"version": "0.4.2",
 	"description": "Basic ES Lint Typescript configuration",
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
 	"author": "longo-andrea",
 	"license": "MIT",
 	"devDependencies": {
@@ -10,5 +13,9 @@
 		"@typescript-eslint/eslint-plugin": "^5.46.0",
 		"@typescript-eslint/parser": "^5.46.0",
 		"eslint": "^8.29.0"
+	},
+	"peerDependencies": {
+		"eslint": "^8.29.0",
+		"typescript": "^4.9.3"
 	}
 }

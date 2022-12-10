@@ -3,6 +3,9 @@
 	"version": "0.4.2",
 	"description": "Basic ES Lint configuration",
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
 	"author": "longo-andrea",
 	"license": "MIT",
 	"dependencies": {
@@ -16,5 +19,8 @@
 		"eslint-plugin-n": "^15.6.0",
 		"eslint-plugin-no-only-tests": "^3.1.0",
 		"eslint-plugin-prettier": "^4.2.1"
+	},
+	"peerDependencies": {
+		"eslint": "^8.29.0"
 	}
 }
