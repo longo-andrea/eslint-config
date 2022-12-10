@@ -80,6 +80,7 @@ execSync(`git push origin v${version}`, { stdio: 'inherit' });
 // Generate changelog and push
 execSync('pnpm generate:changelog', { stdio: 'inherit' });
 execSync('pnpm format', { stdio: 'inherit' });
+execSync('git add .', { stdio: 'inherit' });
 execSync(`git commit -m "docs: generate CHANGELOG for version: ${version}"`, {
 	stdio: 'inherit',
 });

@@ -1,3 +1,18 @@
+# v0.4.9 - 2022-12-10
+
+## Dependencies
+
+-   <@longo-andrea> (2022-12-10) - release version
+-   <@longo-andrea> (2022-12-10) - update pnpm-lock file
+
+## Documentation
+
+-   <@longo-andrea> (2022-12-10) - update CHANGELOG for version v0.4.8
+
+## Features
+
+-   <@longo-andrea> (2022-12-10) - edit eslint-config-base and eslint-config-typescritp
+
 # v0.4.8 - 2022-12-10
 
 ## Dependencies

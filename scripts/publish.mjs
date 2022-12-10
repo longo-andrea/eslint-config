@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
 
-execSync('pnpm -r publish --access public', {
+execSync('pnpm --no-git-checks -r publish --access public', {
 	stdio: 'inherit',
 });
