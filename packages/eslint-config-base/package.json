@@ -2,6 +2,9 @@
 	"name": "@longo-andrea/eslint-config-base",
 	"version": "0.4.8",
 	"description": "Basic ES Lint configuration",
+	"scripts": {
+		"find-new-rules": "eslint-find-rules --unused ./index.js"
+	},
 	"main": "index.js",
 	"files": [
 		"index.js"
@@ -9,16 +12,17 @@
 	"author": "longo-andrea",
 	"license": "MIT",
 	"dependencies": {
-		"prettier": "^2.8.1",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-html": "^7.1.0",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-n": "^15.6.0",
 		"eslint-plugin-no-only-tests": "^3.1.0",
-		"eslint-plugin-prettier": "^4.2.1"
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "^2.8.1"
 	},
 	"devDependencies": {
-		"eslint": "^8.29.0"
+		"eslint": "^8.29.0",
+		"eslint-find-rules": "^4.1.0"
 	},
 	"peerDependencies": {
 		"eslint": "^8.29.0"

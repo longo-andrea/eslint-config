@@ -6,17 +6,26 @@ module.exports = {
 
 	plugins: ['prettier', 'import', 'n', 'html', 'no-only-tests'],
 
-	extends: ['prettier', 'plugin:import/recommended', 'plugin:n/recommended'],
+	extends: [
+		'eslint:recommended',
+		'plugin:import/recommended',
+		'plugin:n/recommended',
+		'prettier',
+	],
 
 	rules: {
 		'prettier/prettier': ['error'],
-		'no-only-tests/no-only-tests': 'error',
+
+		// PLUGIN: n
+		'n/no-unsupported-features/es-syntax': 'off',
+		'n/no-missing-import': 'off',
 	},
 
 	overrides: [
 		{
 			files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
 			rules: {
+				// PLUGIN: no-only-tests
 				'no-only-tests/no-only-tests': 'error',
 			},
 		},
