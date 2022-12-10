@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import prependFile from 'ç';
+import prependFile from 'prepend-file';
 
 const getLastTagDate = tag => {
 	const listCommand = execSync(`git log --pretty='%cs' ${tag}`);
