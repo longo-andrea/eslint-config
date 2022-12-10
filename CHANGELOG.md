@@ -1,3 +1,17 @@
+# v0.4.11 - 2022-12-10
+
+## Dependencies
+
+-   <@longo-andrea> (2022-12-10) - release version
+
+## Continuous integration
+
+-   <@longo-andrea> (2022-12-10) - fix publish GH action
+
+## Documentation
+
+-   <@longo-andrea> (2022-12-10) - generate CHANGELOG for version
+
 # v0.4.10 - 2022-12-10
 
 ## Build system
