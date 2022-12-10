@@ -4,7 +4,7 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 
 	extends: [
-		'@longo-andrea/eslint-base',
+		'@longo-andrea/eslint-config-base',
 		'plugin:@typescript-eslint/recommended',
 	],
 };
