@@ -1,3 +1,9 @@
+# v0.4.8 - 2022-12-10
+
+## Dependencies
+
+-   <@longo-andrea> (2022-12-10) - release version
+
 # v0.4.4 - 2022-12-10
 
 ## Build system
