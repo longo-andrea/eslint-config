@@ -1,3 +1,19 @@
+# v0.4.3 - 2022-12-10
+
+## Build system 
+
+- <@longo-andrea> (2022-12-10) -  fix changelog generation
+
+
+## Dependencies 
+
+- <@longo-andrea> (2022-12-10) -  release version
+- <@longo-andrea> (2022-12-10) -  updated packages peerDependencies
+
+
+## Documentation 
+
+- <@longo-andrea> (2022-12-10) -  add changelog
 # v0.4.2 - 2022-12-10
 
 ## Build system
