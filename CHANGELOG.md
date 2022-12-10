@@ -1,3 +1,21 @@
+# v0.4.4 - 2022-12-10
+
+## Build system
+
+-   <@longo-andrea> (2022-12-10) - add changelog to prepare release script
+
+## Dependencies
+
+-   <@longo-andrea> (2022-12-10) - release version
+
+## Documentation
+
+-   <@longo-andrea> (2022-12-10) - update changelog
+
+## Bug fix
+
+-   <@longo-andrea> (2022-12-10) - publish script by using pnpm rather than npm
+
 # v0.4.3 - 2022-12-10
 
 ## Build system
