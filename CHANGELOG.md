@@ -1,3 +1,18 @@
+# v0.5.0 - 2022-12-14
+
+## Dependencies
+
+-   <@longo-andrea> (2022-12-14) - release version
+
+## Documentation
+
+-   <@longo-andrea> (2022-12-10) - generate CHANGELOG for version
+
+## Features
+
+-   <@longo-andrea> (2022-12-14) - eslint-config-typescript enabled rules not active in reccomended
+-   <@longo-andrea> (2022-12-14) - eslint-config-base enabled rules not active in reccomended
+
 # v0.4.11 - 2022-12-10
 
 ## Dependencies
