@@ -236,4 +236,4 @@ module.exports = {
 			node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
 		},
 	},
-};
+}

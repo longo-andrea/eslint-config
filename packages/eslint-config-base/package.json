@@ -1,6 +1,6 @@
 {
 	"name": "@longo-andrea/eslint-config-base",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"description": "Basic ES Lint configuration",
 	"scripts": {
 		"find-new-rules": "eslint-find-rules --unused ./index.js"

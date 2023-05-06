@@ -98,4 +98,4 @@ module.exports = {
 		'@typescript-eslint/unbound-method': 'warn',
 		'@typescript-eslint/unified-signatures': 'warn',
 	},
-};
+}
