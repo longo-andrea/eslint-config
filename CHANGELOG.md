@@ -1,3 +1,17 @@
+# v0.6.0 - 2023-05-06
+
+## Dependencies
+
+-   <@longo-andrea> (2023-05-06) - release version
+
+## Documentation
+
+-   <@longo-andrea> (2022-12-14) - generate CHANGELOG for version
+
+## Refactor
+
+-   <@longo-andrea> (2023-05-06) - clean packages
+
 # v0.5.0 - 2022-12-14
 
 ## Dependencies
