@@ -3,11 +3,5 @@
 	"version": "0.6.0",
 	"description": "Prettier configuration",
 	"author": "longo-andrea",
-	"license": "MIT",
-	"dependencies": {
-		"prettier": "^2.8.1"
-	},
-	"peerDependencies": {
-		"prettier": "^2.8.1"
-	}
+	"license": "MIT"
 }
