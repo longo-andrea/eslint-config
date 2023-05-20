@@ -1,6 +1,6 @@
 {
 	"name": "@longo-andrea/eslint-config-base",
-	"version": "0.6.0",
+	"version": "1.0.0-beta.0",
 	"description": "Basic ES Lint configuration",
 	"main": "index.js",
 	"files": [
