@@ -5,18 +5,9 @@ module.exports = {
 		node: true,
 	},
 
-	extends: [
-		'plugin:import/recommended',
-		'prettier'
-	],
+	extends: ['plugin:import/recommended', 'prettier'],
 
-	plugins: [
-		'html',
-		'n',
-		'no-only-tests',
-		'unused-imports',
-		'prettier'
-	],
+	plugins: ['html', 'n', 'no-only-tests', 'unused-imports', 'prettier'],
 
 	settings: {
 		'import/resolver': {

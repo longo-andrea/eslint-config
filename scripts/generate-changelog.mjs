@@ -15,7 +15,7 @@ const getLastTags = () => {
 
 const getCommitListBetweenTags = (tagA, tagB) => {
 	const listCommand = execSync(
-		`git log --pretty='@%an|%cs|%s' ${tagA}...${tagB}`,
+		`git log --pretty='@%an|%cs|%s' ${tagA}...${tagB}`
 	)
 	const commits = listCommand.toString().trim().split('\n')
 	return commits.map(commit => {
@@ -101,7 +101,7 @@ const generateMD = () => {
 	if (commitsByType.perf.length) {
 		MD += buildChangelogMessage(
 			'Performance improvements',
-			commitsByType.perf,
+			commitsByType.perf
 		)
 	}
 

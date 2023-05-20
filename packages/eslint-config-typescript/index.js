@@ -1,6 +1,4 @@
 module.exports = {
-
-
 	extends: [
 		'@longo-andrea/eslint-config-base',
 		'plugin:import/typescript',
@@ -9,18 +7,16 @@ module.exports = {
 
 	overrides: [
 		{
-			files: ["*.ts"],
+			files: ['*.ts'],
 			plugins: ['@typescript-eslint', 'import'],
 			parser: '@typescript-eslint/parser',
 			parserOptions: {
-            	tsconfigRootDir: process.cwd(),
-            	project: true,
-          	},
+				tsconfigRootDir: process.cwd(),
+				project: true,
+			},
 			rules: {
-				'@typescript-eslint/no-empty-function': 'off', 
-			}
-
-			
-		}
-	]
+				'@typescript-eslint/no-empty-function': 'off',
+			},
+		},
+	],
 }

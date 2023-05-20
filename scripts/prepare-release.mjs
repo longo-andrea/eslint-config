@@ -11,7 +11,7 @@ const bumpVersion = async version => {
 			version,
 		},
 		null,
-		'\t',
+		'\t'
 	)
 	await fs.writeFile('package.json', newRootPackageJSON)
 
@@ -27,7 +27,7 @@ const bumpVersion = async version => {
 				version,
 			},
 			null,
-			4,
+			4
 		)
 		await fs.writeFile(file, newPackageJSON)
 	}

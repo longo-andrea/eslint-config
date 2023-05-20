@@ -1,3 +1,13 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.6.1](https://github.com/longo-andrea/eslint-config/compare/v0.6.0...v0.6.1) (2023-05-20)
+
+### Features
+
+-   test ([4b0a02a](https://github.com/longo-andrea/eslint-config/commit/4b0a02a42bf49ef255409bd330e427b3064b0a43))
+
 # v0.6.0 - 2023-05-06
 
 ## Dependencies

@@ -3,5 +3,9 @@
 	"version": "0.6.0",
 	"description": "Prettier configuration",
 	"author": "longo-andrea",
-	"license": "MIT"
+	"license": "MIT",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	]
 }
