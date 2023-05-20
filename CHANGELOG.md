@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-1](https://github.com/longo-andrea/eslint-config/compare/v1.0.0-0...v1.0.0-1) (2023-05-20)
+
+
+### Bug Fixes
+
+* github action ([3f4a2b7](https://github.com/longo-andrea/eslint-config/commit/3f4a2b778bd0430e30850de7c644e493203d96ab))
+* prettierignore ([8510cb6](https://github.com/longo-andrea/eslint-config/commit/8510cb69831a4dc0a560fe1dcca0e24e238ec226))
+
 ## [1.0.0-0](https://github.com/longo-andrea/eslint-config/compare/v0.6.0...v1.0.0-0) (2023-05-20)
 
 
