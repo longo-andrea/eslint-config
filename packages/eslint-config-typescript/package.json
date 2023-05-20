@@ -1,6 +1,6 @@
 {
 	"name": "@longo-andrea/eslint-config-typescript",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0-beta.2",
 	"description": "Typescript ES Lint configuration",
 	"main": "index.js",
 	"files": [
