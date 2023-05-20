@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-0](https://github.com/longo-andrea/eslint-config/compare/v0.6.0...v1.0.0-0) (2023-05-20)
+
+
+### Features
+
+* add `eslint-config-vue` package ([4ec0f26](https://github.com/longo-andrea/eslint-config/commit/4ec0f2672240a6ff7ed32ce876d69dd8f59efe97))
+* add prettier config and run on entire project ([68431fd](https://github.com/longo-andrea/eslint-config/commit/68431fd8c3a7ed764dd6d7877a746718460577c9))
+
 ### [0.6.1](https://github.com/longo-andrea/eslint-config/compare/v0.6.0...v0.6.1) (2023-05-20)
 
 ### Features

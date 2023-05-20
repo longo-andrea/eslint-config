@@ -1,7 +1,7 @@
 {
 	"name": "@longo-andrea/eslint-monorepo",
 	"private": "true",
-	"version": "0.6.1",
+	"version": "1.0.0-0",
 	"description": "My custom ES Lint config",
 	"author": "Andrea Longo<https://github.com/longo-andrea>",
 	"scripts": {
