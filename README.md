@@ -1,32 +1,46 @@
-# Personal ES Lint configurations (@longo-andrea)
+# @longo-andrea linters configuration
 
-Personal ES Lint configuration
+## Packages
 
--   🧱 Basic ES Lint configuration
--   ⚙️ Typescript specific ES Lint configuration
--   👗 Prettier config, configured to work with ESLint
+This project is a monorepo that expose configurations for different linters:
 
-## Available packages
+    - 👗 Prettier formatter
+    - 🧱 Several ESLint configurations to use for different types of projects
 
--   `@longo-andrea/eslint-base`: basic ES Lint configuration
--   `@longo-andrea/eslint-typescript`: extends `@longo-andrea/eslint-base` and add some more rules Typescript's related
--   `@longo-andrea/prettier`: defines Prettier configuration
+### Prettier
 
-## Get started
+The package `@longo-andrea/prettier` contains the global Prettier configuration.
+To apply this configuration on your client app:
 
-1. Install the packages you want to use
+1. Install `@longo-andrea/prettier` dependency
+2. Install `prettier`
+3. Create a `.prettierrc.js` file, with:
+    ```
+    module.exports = {
+        ...require('@longo-andrea/prettier'),
+    }
+    ```
+4. Then you just need to add the "format" script to your `package.json`, configure you editor, configure `pretty-quick` or whatever you want.
 
-```shell
-pnpm add -D eslint @longo-andrea/eslint-base
-```
+### ESLint
 
-2. Add the configuration on the project, `.eslintrc`:
+There are several eslint configuration available:
 
-```js
-{
-    extends: [ '@longo-andrea/eslint-base' ]
-}
-```
+-   `@longo-andrea/eslint-config-base`: provide the basic eslint rules that can fit basically every project
+-   `@longo-andrea/eslint-config-vue`: provide Vue & its ecosystem related rules
+-   `@longo-andrea/eslint-config-typescript`: provide TypeScript related rules
+
+To apply one of the above configurations on your client app:
+
+1. Install `@longo-andrea/eslint-config-<CONFIG_NAME>` dependency
+2. Install `eslint`
+3. Create a `.eslintrc` file, with:
+    ```
+    {
+        "extends": ["@longo-andrea/eslint-config-<CONFIG_NAME>"],
+    }
+    ```
+4. Then you just need to add the "lint" script to your `package.json`, configure you editor, configure `lint-staged` or whatever you want.
 
 # License
 
