@@ -12,7 +12,7 @@ module.exports = {
 			parser: '@typescript-eslint/parser',
 			parserOptions: {
 				tsconfigRootDir: process.cwd(),
-				project: ['./tsconfig.eslint.ts'],
+				project: ['./tsconfig.eslint.json'],
 			},
 			rules: {
 				'@typescript-eslint/no-empty-function': 'off',
