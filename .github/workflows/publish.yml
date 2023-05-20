@@ -25,9 +25,7 @@ jobs:
                   registry-url: https://registry.npmjs.org/
                   cache: pnpm
 
-            - run: pnpm install
-
             - name: Publish
-              run: pnpm --no-git-checks -r publish --access public
+              run: pnpm publish -r
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

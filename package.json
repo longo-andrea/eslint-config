@@ -5,25 +5,22 @@
 	"description": "My custom ES Lint config",
 	"author": "Andrea Longo<https://github.com/longo-andrea>",
 	"scripts": {
-		"publish:ci": "node ./scripts/publish.mjs",
-		"generate:changelog": "node ./scripts/generate-changelog.mjs",
-		"release": "standard-version",
+		"release:major": "standard-version --release-as major",
+		"release:minor": "standard-version --release-as minor",
+		"release:patch": "standard-version --release-as patch",
 		"format": "prettier --write ."
 	},
 	"license": "MIT",
 	"simple-git-hooks": {
 		"pre-commit": "pnpm dlx pretty-quick --staged",
-		"commit-msg": "npx --no -- commitlint --edit $1"
+		"commit-msg": "pnpm dlx --no -- commitlint --edit $1"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
 		"@commitlint/config-conventional": "^17.3.0",
-		"fs-extra": "^11.1.0",
-		"glob": "^8.0.3",
-		"prepend-file": "^2.0.1",
+		"@longo-andrea/prettier": "workspace:*",
 		"prettier": "^2.8.1",
 		"simple-git-hooks": "^2.8.1",
-		"standard-version": "^9.5.0",
-		"@longo-andrea/prettier": "workspace:*"
+		"standard-version": "^9.5.0"
 	}
 }
