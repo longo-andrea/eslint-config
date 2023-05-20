@@ -1,0 +1,24 @@
+{
+	"name": "@longo-andrea/eslint-config-vue",
+	"version": "0.6.0",
+	"description": "Vue ES Lint configuration",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"author": "longo-andrea",
+	"license": "MIT",
+	"dependencies": {
+		"@longo-andrea/eslint-config-base": "workspace:*",
+		"@longo-andrea/eslint-config-typescript": "workspace:*",
+		"eslint-plugin-vitest": "^0.2.2",
+		"eslint-plugin-vue": "^9.13.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.41.0"
+	},
+	"peerDependencies": {
+		"eslint": "^8.0.0",
+        "typescript": ">=4.0"
+	}
+}
