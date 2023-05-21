@@ -13,6 +13,9 @@ module.exports = {
 			parserOptions: {
 				tsconfigRootDir: process.cwd(),
 				project: ['./tsconfig.eslint.json'],
+				ecmaFeatures: {
+					jsx: true,
+				},
 			},
 			rules: {
 				'@typescript-eslint/no-empty-function': 'off',
