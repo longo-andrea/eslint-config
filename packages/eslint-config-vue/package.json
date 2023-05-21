@@ -1,6 +1,6 @@
 {
 	"name": "@longo-andrea/eslint-config-vue",
-	"version": "1.0.0-beta.2",
+	"version": "1.0.0-beta.3",
 	"description": "Vue ES Lint configuration",
 	"main": "index.js",
 	"files": [
